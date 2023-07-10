@@ -1,0 +1,60 @@
+@import url('https://fonts.googleapis.com/css2?family=Dosis:wght@500&family=Lato:ital,wght@1,700&family=Open+Sans:ital,wght@0,800;1,400&family=Playfair+Display:wght@500&family=Zilla+Slab:ital,wght@1,700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+/* common styles */
+
+.primary-button {
+    color: #FFF;
+    font-family: Lato;
+    font-size: 20px;
+    font-weight: 700;
+    padding: 20px 43px;
+    border-radius: 8px;
+    border: none;
+    background-color: #E55473;
+    margin-top: 30px;
+    margin-left: 250px;
+    cursor: pointer;
+}
+.primary-button:hover{
+    background-color: #FFF;
+    color: #E55473;
+}
+
+/* style header part */
+
+.header-container {
+    display: flex;
+    justify-content: space-around;
+    width: 100vw;
+    height: 850px;
+    background: rgba(229, 84, 115, 0.10);
+}
+
+.header-title {
+    color: #272727;
+    font-family: 'Lato';
+    font-size: 80px;
+    font-weight: 800px;
+    margin-top: 200px;
+    margin-left: 250px;
+}
+
+.header-description {
+    color: rgba(39, 39, 39, 0.60);
+    font-family: Lato;
+    font-size: 20px;
+    font-weight: 400px;
+    margin-top: 30px;
+    margin-left: 250px;
+}
+
+
+.header-image{
+    width: 635px;
+    height: 800px;
+    padding: 50px 250px 0px 100px;
+}
