@@ -20,18 +20,15 @@
     margin-left: 250px;
     cursor: pointer;
 }
-
 .primary-button:hover {
     background-color: #FFF;
     color: #E55473;
 }
-
 .primary-image {
     width: 300px;
     height: 400px;
     padding: 120px 80px 0px 80px;
 }
-
 
 /* style header part */
 
@@ -42,7 +39,6 @@
     height: 850px;
     background: rgba(229, 84, 115, 0.10);
 }
-
 .header-title {
     color: #272727;
     font-family: 'Lato';
@@ -51,7 +47,6 @@
     margin-top: 200px;
     margin-left: 250px;
 }
-
 .header-description {
     color: rgba(39, 39, 39, 0.60);
     font-family: Lato;
@@ -60,8 +55,6 @@
     margin-top: 30px;
     margin-left: 250px;
 }
-
-
 .header-image {
     width: 635px;
     height: 800px;
@@ -74,7 +67,6 @@
     text-align: center;
     padding: 30px;
 }
-
 .main-title {
     color: #272727;
     font-family: Lato;
@@ -82,7 +74,6 @@
     font-weight: 800;
     margin-top: 200px;
 }
-
 .main-description {
     color: rgba(39, 39, 39, 0.60);
     font-family: Lato;
@@ -90,7 +81,6 @@
     font-weight: 400;
     margin-top: 10px;
 }
-
 .main-box-container {
     display: flex;
     justify-content: space-around;
@@ -98,7 +88,6 @@
     margin-top: 50px;
 
 }
-
 .box-one {
     width: 500px;
     height: 520px;
@@ -106,7 +95,6 @@
     background: rgba(167, 33, 98, 0.15);
     margin-left: 500px;
 }
-
 .box-two {
     width: 500px;
     height: 520px;
@@ -115,7 +103,6 @@
     margin: 0px 25px;
 
 }
-
 .box-three {
     width: 500px;
     height: 520px;
@@ -123,8 +110,7 @@
     background: rgba(71, 125, 17, 0.15);
     margin-right: 500px;
 }
-
-.main-link{
+.main-link {
     display: flex;
     justify-content: space-around;
     gap: 25px;
@@ -152,4 +138,43 @@
     font-size: 24px;
     font-weight: 700;
     margin-right: 500px;
+}
+.section-container {
+    height: 600px;
+    display: flex;
+    justify-content: space-around;
+    margin: 100px 0px 20px 0px;
+    border-radius: 8px;
+    background: rgba(229, 84, 115, 0.05);
+    align-items: center;
+}
+.main-title-two {
+    color: #272727;
+    font-family: Lato;
+    font-size: 40px;
+    font-weight: 800;
+    text-align: center;
+    margin: 100px 0px 20px 400px;
+}
+#section {
+    color: rgba(255, 0, 0, 0.91);
+}
+.main-description-two {
+    color: rgba(39, 39, 39, 0.60);
+    text-align: center;
+    font-family: Lato;
+    font-size: 18px;
+    font-weight: 400;
+    margin: 0px 0px 0px 400px;
+}
+.section-image{
+    width: 400px;
+    margin-right: 500px;
+}
+.section-container .primary-button{
+    margin-left: 600px;
+}
+.primary-button:hover {
+    background-color: #FFF;
+    color: #E55473;
 }
