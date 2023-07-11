@@ -25,7 +25,6 @@
     background-color: #FFF;
     color: #E55473;
 }
-
 .primary-image {
     width: 300px;
     height: 400px;
@@ -197,11 +196,6 @@
     margin-left: 600px;
 }
 
-.primary-button:hover {
-    background-color: #FFF;
-    color: #E55473;
-}
-
 .social-box-one {
     margin-left: 500px;
 }
@@ -210,19 +204,13 @@
     margin-right: 500px;
 }
 
-.box-container {
-    display: flex;
-    align-items: center;
-}
-
 .main-section-container {
-    width: 1500px;
-    height: 450px;
+    width: 60vw;
+    height: 35vh;
     background-image: url("../flower-asset/ractangle4.png");
     background-repeat: no-repeat;
     background-size: cover;
-    border-radius: 7px;
-    margin: 200px 100px 50px 520px;
+    margin: 180px 300px 0px 500px;
 }
 
 .section-title {
@@ -241,14 +229,17 @@
     font-size: 18px;
     font-weight: 400;
 }
-
+.box-container {
+    display: flex;
+    align-items: center;
+}
 .email-holder {
     width: 700px;
     height: 60px;
-    margin-left: 350px;
-    border-radius: 0px;
     border: none;
     font-size: 18px;
+    margin-right: 10px;
+    margin-left: 300px;
 }
 
 /* style of footer */
@@ -284,4 +275,9 @@
     font-size: 16px;
     font-weight: 400;
     padding: 10px 0px 0px 0px;
+}
+.box-container .primary-button{
+    margin-right: 400px;
+    margin-left: 0px;
+    margin-top: 0px;
 }
