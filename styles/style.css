@@ -205,12 +205,12 @@
 }
 
 .main-section-container {
-    width: 60vw;
+    width: 70vw;
     height: 35vh;
     background-image: url("../flower-asset/ractangle4.png");
     background-repeat: no-repeat;
     background-size: cover;
-    margin: 180px 300px 0px 500px;
+    margin: 180px 300px 0px 420px;
 }
 
 .section-title {
