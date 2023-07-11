@@ -136,7 +136,7 @@
     font-family: Lato;
     font-size: 24px;
     font-weight: 700;
-    margin-left: 200px;
+    margin-left: 500px;
 }
 
 .link-two {
@@ -153,14 +153,14 @@
     font-family: Lato;
     font-size: 24px;
     font-weight: 700;
-    margin-right: 200px;
+    margin-right: 500px;
 }
 
 .section-container {
     height: 600px;
     display: flex;
     justify-content: space-around;
-    margin: 100px 0px 20px 0px;
+    margin: 200px 0px 20px 0px;
     border-radius: 8px;
     background: rgba(229, 84, 115, 0.05);
     align-items: center;
@@ -175,7 +175,7 @@
     margin: 100px 0px 20px 400px;
 }
 
-#section {
+.section {
     color: rgba(255, 0, 0, 0.91);
 }
 
@@ -218,7 +218,7 @@
 .main-section-container {
     width: 1500px;
     height: 450px;
-    background-image: url("../flower asset/ractangle4.png");
+    background-image: url("../flower-asset/ractangle4.png");
     background-repeat: no-repeat;
     background-size: cover;
     border-radius: 7px;
@@ -250,6 +250,38 @@
     border: none;
     font-size: 18px;
 }
-.box-container .primary-button{
-    margin-right: 500px;
+
+/* style of footer */
+
+.footer {
+    margin-top: 100px;
+    background: #111010;
+    width: 100vw;
+    height: 449px;
+}
+
+.footer-title {
+    color: white;
+    text-align: center;
+    font-family: Lato;
+    font-size: 48px;
+    font-weight: 800;
+    padding: 100px 0px 10px 0px;
+}
+
+.footer-description {
+    color: rgba(255, 255, 255, 0.90);
+    text-align: center;
+    font-family: Lato;
+    font-size: 18px;
+    font-weight: 400;
+}
+
+.copyright {
+    color: rgba(255, 255, 255, 0.40);
+    text-align: center;
+    font-family: Lato;
+    font-size: 16px;
+    font-weight: 400;
+    padding: 10px 0px 0px 0px;
 }
